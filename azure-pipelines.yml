@@ -1,3 +1,9 @@
+trigger:
+- main
+
+pool:
+  name: Default    # Replace 'Default' with the exact name of your self-hosted agent pool
+
 steps:
 - task: Maven@3
   inputs:
